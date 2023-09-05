@@ -1,4 +1,4 @@
-Used the design as a mock up for a potential bakery website for my sister.
+A mock up for a potential bakery website for my sister.
 
 A W.I.P so expect changes.
 
