@@ -27,24 +27,29 @@ a {
     color: white;
 }
 
+.title {
+    position: relative;
+    bottom: 60px;
+}
+
 .main {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
     padding: 50px;
     color: white;
-}
-
-.description {
-    font-size: 18px;
-}
-
-.left-main {
     font-size: 48px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+}
+
+.main-img {
+    width: 500px;
+    height: 300px;
+}
+
+.description, .sign-up {
+    position: relative;
+    bottom: 70px;
+    font-size: 22px;
 }
 
 h3 {
@@ -57,10 +62,20 @@ h3 {
 .faves {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    border-width: 10px;
+    gap: 50px;
+    padding-top: 50px;
     padding-bottom: 100px;
     font-size: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
 }
 
 .quote {
@@ -73,4 +88,10 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 16px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
 }
