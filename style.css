@@ -3,7 +3,6 @@ body {
     flex-direction: column;
 }
 
-<div class="faves">
 .header {
     display: flex;
     justify-content: space-between;
